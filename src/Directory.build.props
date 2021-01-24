@@ -5,6 +5,7 @@
     <Copyright>Copyright © 2021 shipwreck.jp</Copyright>
     <LangVersion>9.0</LangVersion>
     <IsDeterministic>true</IsDeterministic>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/pgrho/fontawesome-controls</PackageProjectUrl>
     <RepositoryUrl>https://github.com/pgrho/fontawesome-controls</RepositoryUrl>
   </PropertyGroup>

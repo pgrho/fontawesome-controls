@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{A1A2DA
 		..\.gitattributes = ..\.gitattributes
 		..\.gitignore = ..\.gitignore
 		Directory.build.props = Directory.build.props
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.FontAwesomeControls.PresentationFramework", "PresentationFramework\Shipwreck.FontAwesomeControls.PresentationFramework.csproj", "{2E330DE9-2010-417F-9805-3F6F33273DC3}"
