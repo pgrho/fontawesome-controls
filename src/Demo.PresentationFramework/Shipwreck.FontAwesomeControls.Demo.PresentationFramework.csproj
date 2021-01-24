@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Shipwreck.FontAwesomeControls.Demo</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="System.ObjectModel" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PresentationFramework\Shipwreck.FontAwesomeControls.PresentationFramework.csproj" />
+  </ItemGroup>
+
+</Project>

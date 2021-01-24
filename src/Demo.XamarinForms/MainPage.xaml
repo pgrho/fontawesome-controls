@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fa="http://schema.shipwreck.jp/fontawesome5/"
+    xmlns:vm="clr-namespace:Shipwreck.FontAwesomeControls.Demo"
+    x:Class="Shipwreck.FontAwesomeControls.Demo.XamarinForms.MainPage">
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Entry
+            Text="{Binding Icon}" />
+        <CheckBox
+            IsChecked="{Binding IsRegular}"></CheckBox>
+        <CheckBox
+            IsChecked="{Binding IsSpin}"></CheckBox>
+        <CheckBox
+            IsChecked="{Binding IsPulse}"></CheckBox>
+        <fa:FontAwesomeLabel
+            FontSize="32"
+            HorizontalTextAlignment="Center"
+            Icon="{Binding Icon}" />
+    </StackLayout>
+
+</ContentPage>
