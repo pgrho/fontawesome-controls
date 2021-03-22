@@ -1482,6 +1482,10 @@ namespace Shipwreck.FontAwesomeControls
                     {
                         family = "fa-regular-400";
                     }
+                    else if (c == "fab")
+                    {
+                        family = "fa-brands-400";
+                    }
                     else
                     {
                         icon = c;

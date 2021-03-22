@@ -82,6 +82,7 @@ namespace Shipwreck.FontAwesomeControls
         private static ResourceDictionary _Fonts;
         private static FontFamily _SolidFontFamily;
         private static FontFamily _RegularFontFamily;
+        private static FontFamily _BrandsFontFamily;
 
         private static void OnIconPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
@@ -96,7 +97,9 @@ namespace Shipwreck.FontAwesomeControls
                             new Uri("/Shipwreck.FontAwesomeControls.PresentationFramework;component/Resources/Fonts.xaml", UriKind.Relative)
                         )
                     };
-                    b.FontFamily = f == "fa-regular-400" ? (_RegularFontFamily ??= _Fonts["FontAwesomeRegular"] as FontFamily) : (_SolidFontFamily ??= _Fonts["FontAwesomeSolid"] as FontFamily);
+                    b.FontFamily = f == "fa-regular-400" ? (_RegularFontFamily ??= _Fonts["FontAwesomeRegular"] as FontFamily)
+                        : f == "fa-brands-400" ? (_BrandsFontFamily ??= _Fonts["FontAwesomeBrands"] as FontFamily)
+                        : (_SolidFontFamily ??= _Fonts["FontAwesomeSolid"] as FontFamily);
                     b.Text = t;
                     switch (a)
                     {

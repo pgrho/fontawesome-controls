@@ -5,4 +5,6 @@
         x:Key="FontAwesomeSolid">pack://application:,,,/Shipwreck.FontAwesomeControls.PresentationFramework;component/Resources/#Font Awesome 5 Free Solid</FontFamily>
     <FontFamily
         x:Key="FontAwesomeRegular">pack://application:,,,/Shipwreck.FontAwesomeControls.PresentationFramework;component/Resources/#Font Awesome 5 Free Regular</FontFamily>
+    <FontFamily
+        x:Key="FontAwesomeBrands">pack://application:,,,/Shipwreck.FontAwesomeControls.PresentationFramework;component/Resources/#Font Awesome 5 Brands Regular</FontFamily>
 </ResourceDictionary>
