@@ -5,6 +5,11 @@ namespace Shipwreck.FontAwesomeControls
 {
     public class FontAwesomeLabel : Label
     {
+        static FontAwesomeLabel()
+        {
+            FontAwesomeInitializer.RegisterFonts();
+        }
+
         public static readonly BindableProperty IconProperty
             = BindableProperty.Create(nameof(Icon), typeof(string), typeof(FontAwesomeLabel),
                 null,

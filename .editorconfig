@@ -4,6 +4,11 @@
 # All files
 [*]
 indent_style = space
+
+[*.{csproj,props}]
+indent_size = 2
+insert_final_newline = false
+
 # Code files
 [*.{cs,csx,razor}]
 indent_size = 4
