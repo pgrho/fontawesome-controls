@@ -1,6 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <Version>5.14.2</Version>
+    <Version>5.14.3</Version>
     <Authors>shipwreck.jp</Authors>
     <Copyright>Copyright © 2021 shipwreck.jp</Copyright>
     <LangVersion>9.0</LangVersion>
