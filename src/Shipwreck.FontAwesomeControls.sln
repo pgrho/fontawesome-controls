@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30914.41
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{A1A2DA11-1043-4C6F-85F6-42D08857601B}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,19 +26,15 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shipwreck.FontAwesomeContro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.FontAwesomeControls.Demo.XamarinForms", "Demo.XamarinForms\Shipwreck.FontAwesomeControls.Demo.XamarinForms.csproj", "{71BA06B5-AA89-40AE-8005-9BB70F262334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.FontAwesomeControls.Demo.XamarinForms.Android", "Demo.XamarinForms.Android\Shipwreck.FontAwesomeControls.Demo.XamarinForms.Android.csproj", "{CBCB224C-1866-447B-B9BF-A7B1D1156E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.FontAwesomeControls.Demo.XamarinForms.Android", "Demo.XamarinForms.Android\Shipwreck.FontAwesomeControls.Demo.XamarinForms.Android.csproj", "{CBCB224C-1866-447B-B9BF-A7B1D1156E62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipwreck.FontAwesomeControls.Demo.XamarinForms.iOS", "Demo.XamarinForms.iOS\Shipwreck.FontAwesomeControls.Demo.XamarinForms.iOS.csproj", "{75906E2E-24BF-4E11-865D-FA99C72FFBAA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.FontAwesomeControls.Maui", "Maui\Shipwreck.FontAwesomeControls.Maui.csproj", "{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipwreck.FontAwesomeControls.Demo.Maui", "Demo.Maui\Shipwreck.FontAwesomeControls.Demo.Maui.csproj", "{AA45EAC1-3504-4196-8692-46C211C68DB1}"
+EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Shared\Shipwreck.FontAwesomeControls.Shared.projitems*{2e330de9-2010-417f-9805-3f6f33273dc3}*SharedItemsImports = 5
-		Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems*{71ba06b5-aa89-40ae-8005-9bb70f262334}*SharedItemsImports = 5
-		Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems*{84bfae4c-08b7-4400-9fb2-ee885b60e28e}*SharedItemsImports = 13
-		Shared\Shipwreck.FontAwesomeControls.Shared.projitems*{d005dfaf-b11a-4e48-a81b-56e6ff6d8487}*SharedItemsImports = 5
-		Shared\Shipwreck.FontAwesomeControls.Shared.projitems*{d6500fc0-8a75-430e-b7ca-f11a3fe3b873}*SharedItemsImports = 13
-		Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems*{d7765072-ad7e-41f0-b98a-c2d8b54a2d19}*SharedItemsImports = 5
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|iPhone = Debug|iPhone
@@ -176,6 +172,48 @@ Global
 		{75906E2E-24BF-4E11-865D-FA99C72FFBAA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{75906E2E-24BF-4E11-865D-FA99C72FFBAA}.Release|x64.ActiveCfg = Release|iPhoneSimulator
 		{75906E2E-24BF-4E11-865D-FA99C72FFBAA}.Release|x86.ActiveCfg = Release|iPhoneSimulator
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|iPhone.Build.0 = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|x64.Build.0 = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{824C3F31-2EDA-4B6E-AADA-A9EDF7F269D4}.Release|x86.Build.0 = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|x64.Build.0 = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Debug|x86.Build.0 = Debug|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|iPhone.Build.0 = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|x64.ActiveCfg = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|x64.Build.0 = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|x86.ActiveCfg = Release|Any CPU
+		{AA45EAC1-3504-4196-8692-46C211C68DB1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,8 +224,19 @@ Global
 		{71BA06B5-AA89-40AE-8005-9BB70F262334} = {2FFA0C50-CAFB-4BAC-9C8F-752E340245DB}
 		{CBCB224C-1866-447B-B9BF-A7B1D1156E62} = {2FFA0C50-CAFB-4BAC-9C8F-752E340245DB}
 		{75906E2E-24BF-4E11-865D-FA99C72FFBAA} = {2FFA0C50-CAFB-4BAC-9C8F-752E340245DB}
+		{AA45EAC1-3504-4196-8692-46C211C68DB1} = {2FFA0C50-CAFB-4BAC-9C8F-752E340245DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E68C4CC-7058-43C6-83B3-54DD5D21CC60}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shipwreck.FontAwesomeControls.Shared.projitems*{2e330de9-2010-417f-9805-3f6f33273dc3}*SharedItemsImports = 5
+		Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems*{71ba06b5-aa89-40ae-8005-9bb70f262334}*SharedItemsImports = 5
+		Shared\Shipwreck.FontAwesomeControls.Shared.projitems*{824c3f31-2eda-4b6e-aada-a9edf7f269d4}*SharedItemsImports = 5
+		Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems*{84bfae4c-08b7-4400-9fb2-ee885b60e28e}*SharedItemsImports = 13
+		Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems*{aa45eac1-3504-4196-8692-46c211c68db1}*SharedItemsImports = 5
+		Shared\Shipwreck.FontAwesomeControls.Shared.projitems*{d005dfaf-b11a-4e48-a81b-56e6ff6d8487}*SharedItemsImports = 5
+		Shared\Shipwreck.FontAwesomeControls.Shared.projitems*{d6500fc0-8a75-430e-b7ca-f11a3fe3b873}*SharedItemsImports = 13
+		Demo.Shared\Shipwreck.FontAwesomeControls.Demo.Shared.projitems*{d7765072-ad7e-41f0-b98a-c2d8b54a2d19}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

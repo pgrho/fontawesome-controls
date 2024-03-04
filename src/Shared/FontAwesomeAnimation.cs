@@ -1,9 +1,8 @@
-﻿namespace Shipwreck.FontAwesomeControls
+﻿namespace Shipwreck.FontAwesomeControls;
+
+public enum FontAwesomeAnimation
 {
-    public enum FontAwesomeAnimation
-    {
-        None,
-        Spin,
-        Pulse
-    }
+    None,
+    Spin,
+    Pulse
 }
