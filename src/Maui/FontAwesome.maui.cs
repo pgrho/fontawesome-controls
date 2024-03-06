@@ -14,9 +14,9 @@ partial class FontAwesome
 
     public static IFontCollection AddFontAwesome(this IFontCollection fonts)
     {
-        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "Shipwreck.FontAwesomeControls.fa-brands-400.ttf", "fa-brands-400");
-        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "Shipwreck.FontAwesomeControls.fa-regular-400.ttf", "fa-regular-400");
-        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "Shipwreck.FontAwesomeControls.fa-solid-9400.ttf", "fa-solid-900");
+        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "fa-brands-400.ttf", "fa-brands-400");
+        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "fa-regular-400.ttf", "fa-regular-400");
+        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "fa-solid-900.ttf", "fa-solid-900");
 
         return fonts;
     }
