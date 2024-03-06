@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.6" />
-    <MauiFont Include="..\PresentationFramework\Resources\*.ttf" Link="Resources\Fonts\%(FileName).ttf" />
+    <EmbeddedResource Include="..\PresentationFramework\Resources\*.ttf" Link="%(FileName).ttf" />
   </ItemGroup>
   <Import Project="..\Shared\Shipwreck.FontAwesomeControls.Shared.projitems" Label="Shared" />
 

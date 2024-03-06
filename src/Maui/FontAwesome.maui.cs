@@ -1,12 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Maui.Hosting;
 
 namespace Shipwreck.FontAwesomeControls;
 
 partial class FontAwesome
 {
     public static void Init() { }
+
+    public static IFontCollection AddFontAwesome(this IFontCollection fonts)
+    {
+        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "Shipwreck.FontAwesomeControls.fa-brands-400.ttf", "fa-brands-400");
+        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "Shipwreck.FontAwesomeControls.fa-regular-400.ttf", "fa-regular-400");
+        fonts.AddEmbeddedResourceFont(typeof(FontAwesome).Assembly, "Shipwreck.FontAwesomeControls.fa-solid-9400.ttf", "fa-solid-900");
+
+        return fonts;
+    }
 }
